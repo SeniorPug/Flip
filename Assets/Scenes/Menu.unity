@@ -1637,9 +1637,6 @@ MonoBehaviour:
   languageDropdown: {fileID: 137968845}
   widthText: {fileID: 1931568918}
   heightText: {fileID: 1847905139}
-  languageText: {fileID: 291928041}
-  recordText: {fileID: 168802055}
-  playButtonText: {fileID: 1726835774}
   recordValue: {fileID: 1924900656}
 --- !u!4 &945563165
 Transform:

@@ -19,10 +19,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -101,11 +99,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3018}
     - Class: 114
-      Script: {instanceID: 3828}
+      Script: {instanceID: 3830}
     - Class: 114
-      Script: {instanceID: 3922}
+      Script: {instanceID: 3924}
     - Class: 114
-      Script: {instanceID: 4066}
+      Script: {instanceID: 4068}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -200,15 +198,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3612}
     - Class: 114
-      Script: {instanceID: 3828}
+      Script: {instanceID: 3640}
     - Class: 114
-      Script: {instanceID: 3852}
+      Script: {instanceID: 3830}
     - Class: 114
-      Script: {instanceID: 3922}
+      Script: {instanceID: 3854}
     - Class: 114
-      Script: {instanceID: 4066}
+      Script: {instanceID: 3924}
     - Class: 114
-      Script: {instanceID: 24000}
+      Script: {instanceID: 4068}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -624,6 +622,12 @@ ScriptsOnlyBuild:
     className: TMP_Settings
   - hash:
       serializedVersion: 2
+      Hash: 5a758abb866cf693601ec7086e8d3898
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonFunctions
+  - hash:
+      serializedVersion: 2
       Hash: 6980e81ddc615a861309d2d659cc3760
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -682,14 +686,8 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 5a758abb866cf693601ec7086e8d3898
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ButtonFunctions
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: F:/Projects/Flip_Test/build/Flip_Test.exe
+  playerPath: F:/Projects/Flip/exe-Build/Flip_Test.exe
